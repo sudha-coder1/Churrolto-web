@@ -128,7 +128,7 @@ color:black
 .carousel-container, .lar-carousel-container, .test-carousel-container {
  position:relative;
  margin:auto   ;
- overflow: hidden; /* Ensure images don't overflow */
+ overflow: hidden; 
 }
 
 .carousel-slide, .lar-carousel-slide, .test-carousel-slide{
@@ -142,7 +142,7 @@ color:black
     float:left;
     box-sizing: border-box;
     position:relative;
-    flex: 0 0 auto; /* Prevent flex items from growing */
+    flex: 0 0 auto; 
 
 } 
 
@@ -202,10 +202,9 @@ color:black
     background-clip: padding-box;
     overflow-x: hidden;
     overflow-y:hidden;
-    /* transition: 0.5s; */
     padding-top: 60px;
     transform: translateX(-350px); 
-    transition: transform 0.5s; /* Use transform for the transition */
+    transition: transform 0.5s;
   }
 
   .sidenav-content{
