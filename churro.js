@@ -29,11 +29,11 @@ function openNav() {
   
   const intervalId = setInterval(nextSlide, 3000);
   
-//   carouselSlide.addEventListener('mouseover', () => {
-//       clearInterval(intervalId);
-//   });
+  carouselSlide.addEventListener('mouseover', () => {
+      clearInterval(intervalId);
+  });
   
-//   carouselSlide.addEventListener('mouseout', () => {
-//       intervalId = setInterval(nextSlide, 3000);
-//   });
+  carouselSlide.addEventListener('mouseout', () => {
+      intervalId = setInterval(nextSlide, 3000);
+  });
   
